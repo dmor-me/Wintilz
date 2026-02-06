@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+	Uri="https://example.com/Wintilz/Wintilz_x64.appinstaller"
+	Version="0.1.0.0"
+	xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	<MainPackage
+		Name="0394fe8a-3006-4939-baeb-9e5b12edaf5f"
+		Version="0.1.0.0"
+		Publisher="CN=User Name"
+		Uri="https://example.com/Wintilz/Wintilz_0.1.0.0_x64_Test/Wintilz_0.1.0.0_x64.msix"
+		ProcessorArchitecture="x64" />
+	<Dependencies>
+		<Package
+			Name="Microsoft.WindowsAppRuntime.1.8"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x64"
+			Uri="https://example.com/Wintilz/Wintilz_0.1.0.0_x64_Test/Dependencies/x64/Microsoft.WindowsAppRuntime.1.8.msix"
+			Version="8000.731.1532.0" />
+	</Dependencies>
+	<UpdateSettings>
+		<OnLaunch
+			HoursBetweenUpdateChecks="0" />
+	</UpdateSettings>
+</AppInstaller>
